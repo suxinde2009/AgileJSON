@@ -1,0 +1,16 @@
+PODS:
+  - AgileJSON (0.1.0)
+
+DEPENDENCIES:
+  - AgileJSON (from `./`)
+
+EXTERNAL SOURCES:
+  AgileJSON:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AgileJSON: d6ea74d6a18a9c2dc4941badc2f2dd37823ea55e
+
+PODFILE CHECKSUM: f1c6617fc27b4b86bcda3d6913a43ca4551d8a52
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055F18B6E1E7E1CF6268C6946FEDA15A /* Pods-AgileJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23ACFADB2155867053B9F287CB794EF4 /* Pods-AgileJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11BF58C0AE464F0AA60398A381B273EA /* Pods-AgileJSONDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1458C5C74533934E6C36B01C648C720 /* Pods-AgileJSONDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FAEB49A3823704B8EAFE88222E9F5B /* Pods-AgileJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CADEC359A1A83A3776ED8BFBB14A9C35 /* Pods-AgileJSON-dummy.m */; };
+		17372460A44D921E862EA885BAA5D842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		234A4E4E38557EE9469806EA8E43FEF1 /* AgileJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5398D630CB8C38FCF562C8D71FDF1E6F /* AgileJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A9AF087FF7F0A95C7E24DF838ED7630 /* Pods-AgileJSONDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98062DB1707107BD2C662B53214592 /* Pods-AgileJSONDemo-dummy.m */; };
+		758CB326585E170E0A001805687836D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A8447C5E1C3E17E5F57FB676A2450869 /* AgileJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C44379A2055AA427CA9A372774F8C5 /* AgileJSON.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B900A17B1539DC47E2E17D2C5B96A1F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DF4960672FF91686D7F6FD138BA6B085 /* AgileJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA3A1FDB0F5B37ADD95F5D1F49CFDC /* AgileJSON-dummy.m */; };
+		FEF6284B2C72BA5EF1A28943BBC841BD /* AgileJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EC15DB2561C57C9B0DBBF4735C73CE /* AgileJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572CDDF602993615B01B88CDD0C72BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8130D064D2190FA1DB201CA7984B5DDA;
+			remoteInfo = AgileJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E81783075296F4AC00A867D1C574DE /* Pods-AgileJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AgileJSON.modulemap"; sourceTree = "<group>"; };
+		12946F8E7089FC22E63A0AB9C70CE576 /* Pods-AgileJSONDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileJSONDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19D213872A37441920C11AB35D191EA3 /* Pods-AgileJSONDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileJSONDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C949E6AE389B26CD4EE47FBD0FABC90 /* Pods-AgileJSONDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileJSONDemo-frameworks.sh"; sourceTree = "<group>"; };
+		20FFF439E3262F1BBF2660FB0AE3B789 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		23ACFADB2155867053B9F287CB794EF4 /* Pods-AgileJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileJSON-umbrella.h"; sourceTree = "<group>"; };
+		286F5D6CC2F0EA8139FD10481832FB9F /* AgileJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AgileJSON.framework; path = AgileJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5456CAB2E2D762D79CA038E6C5C63C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6D05FCB9B246E7FE82EC85CF318EE7 /* Pods-AgileJSONDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileJSONDemo-resources.sh"; sourceTree = "<group>"; };
+		3B98062DB1707107BD2C662B53214592 /* Pods-AgileJSONDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileJSONDemo-dummy.m"; sourceTree = "<group>"; };
+		3BAA3A1FDB0F5B37ADD95F5D1F49CFDC /* AgileJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AgileJSON-dummy.m"; sourceTree = "<group>"; };
+		46C44379A2055AA427CA9A372774F8C5 /* AgileJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AgileJSON.swift; sourceTree = "<group>"; };
+		5398D630CB8C38FCF562C8D71FDF1E6F /* AgileJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileJSON-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		690BCAF2B93ABFAFB0112CDE26DE1340 /* AgileJSON.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AgileJSON.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D06C2A5F2F6AD9BC8821C6EE43209E2 /* Pods-AgileJSONDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileJSONDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7EF827895A9DB8AD36DF42D80B389530 /* Pods-AgileJSON-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileJSON-acknowledgements.plist"; sourceTree = "<group>"; };
+		862449AAED6B59153C8E0A2901031C5A /* Pods-AgileJSONDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileJSONDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8C0E7EFBF4C529D6B6C3278C65C88211 /* AgileJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AgileJSON.modulemap; sourceTree = "<group>"; };
+		8F67AECB9B86ADD76B101921F04E71BA /* AgileJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgileJSON.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A92A4E39E2A413D9D842201DDC8DD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CB31A716FAE4F0EAD2CAEE14530B40 /* Pods-AgileJSON-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileJSON-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1458C5C74533934E6C36B01C648C720 /* Pods-AgileJSONDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileJSONDemo-umbrella.h"; sourceTree = "<group>"; };
+		A9E2DF43F9FF9C22F110EF6C76CCA1BF /* AgileJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileJSON-prefix.pch"; sourceTree = "<group>"; };
+		B6819955649769BE0E152CF085F21220 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B988BBC325F37FA81901FAF5D088AFDC /* Pods-AgileJSON-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileJSON-resources.sh"; sourceTree = "<group>"; };
+		BAECD94D21AA73759EF8E32BEF4C1D94 /* Pods-AgileJSONDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AgileJSONDemo.modulemap"; sourceTree = "<group>"; };
+		C5AB430F4A2ECBB820EAFE39C588D2E0 /* Pods-AgileJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileJSON.debug.xcconfig"; sourceTree = "<group>"; };
+		CADEC359A1A83A3776ED8BFBB14A9C35 /* Pods-AgileJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileJSON-dummy.m"; sourceTree = "<group>"; };
+		D05C1091A794430CAF78E82DB2152D39 /* Pods_AgileJSONDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileJSONDemo.framework; path = "Pods-AgileJSONDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13EA748AB1CBFBBA7A33D9CBAEB92BE /* Pods_AgileJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileJSON.framework; path = "Pods-AgileJSON.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EC15DB2561C57C9B0DBBF4735C73CE /* AgileJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AgileJSON.h; sourceTree = "<group>"; };
+		EDBC40A92405AABC8C48E2BAC925B44E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9EDE106205DACD2858E865616AA1AE2 /* Pods-AgileJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileJSON.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07F6533B97126F9194C4DFB4C9C3439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17372460A44D921E862EA885BAA5D842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59D0CC10808BDD776D010847A1272C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758CB326585E170E0A001805687836D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BEB393AC6D12A7130B57CEC3E03DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B900A17B1539DC47E2E17D2C5B96A1F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8A9FBEB2BAD907DA4D0B41CD979C3E /* AgileJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC15DB2561C57C9B0DBBF4735C73CE /* AgileJSON.h */,
+			);
+			name = AgileJSON;
+			path = AgileJSON;
+			sourceTree = "<group>";
+		};
+		10F1905654F71030D059724F5E340917 /* Pods-AgileJSONDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A0A92A4E39E2A413D9D842201DDC8DD9 /* Info.plist */,
+				BAECD94D21AA73759EF8E32BEF4C1D94 /* Pods-AgileJSONDemo.modulemap */,
+				12946F8E7089FC22E63A0AB9C70CE576 /* Pods-AgileJSONDemo-acknowledgements.markdown */,
+				19D213872A37441920C11AB35D191EA3 /* Pods-AgileJSONDemo-acknowledgements.plist */,
+				3B98062DB1707107BD2C662B53214592 /* Pods-AgileJSONDemo-dummy.m */,
+				1C949E6AE389B26CD4EE47FBD0FABC90 /* Pods-AgileJSONDemo-frameworks.sh */,
+				2C6D05FCB9B246E7FE82EC85CF318EE7 /* Pods-AgileJSONDemo-resources.sh */,
+				A1458C5C74533934E6C36B01C648C720 /* Pods-AgileJSONDemo-umbrella.h */,
+				6D06C2A5F2F6AD9BC8821C6EE43209E2 /* Pods-AgileJSONDemo.debug.xcconfig */,
+				862449AAED6B59153C8E0A2901031C5A /* Pods-AgileJSONDemo.release.xcconfig */,
+			);
+			name = "Pods-AgileJSONDemo";
+			path = "Target Support Files/Pods-AgileJSONDemo";
+			sourceTree = "<group>";
+		};
+		16142F68931004AC12C6FC8E4BC25443 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				690BCAF2B93ABFAFB0112CDE26DE1340 /* AgileJSON.podspec */,
+				20FFF439E3262F1BBF2660FB0AE3B789 /* LICENSE */,
+				EDBC40A92405AABC8C48E2BAC925B44E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3410BEE8EE2E61231EE67A1E60F1BCA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C0E7EFBF4C529D6B6C3278C65C88211 /* AgileJSON.modulemap */,
+				8F67AECB9B86ADD76B101921F04E71BA /* AgileJSON.xcconfig */,
+				3BAA3A1FDB0F5B37ADD95F5D1F49CFDC /* AgileJSON-dummy.m */,
+				A9E2DF43F9FF9C22F110EF6C76CCA1BF /* AgileJSON-prefix.pch */,
+				5398D630CB8C38FCF562C8D71FDF1E6F /* AgileJSON-umbrella.h */,
+				B6819955649769BE0E152CF085F21220 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/AgileJSON";
+			sourceTree = "<group>";
+		};
+		3F16639824A953E206CD31B162BD296F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46C44379A2055AA427CA9A372774F8C5 /* AgileJSON.swift */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		48196DB30D6D1CD8A183221AF76BDD93 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B0604CC29D5545E9F673AA02F3639CC /* AgileJSON */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5BFA7235675A44F55D2FEB8B071B918F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286F5D6CC2F0EA8139FD10481832FB9F /* AgileJSON.framework */,
+				D13EA748AB1CBFBBA7A33D9CBAEB92BE /* Pods_AgileJSON.framework */,
+				D05C1091A794430CAF78E82DB2152D39 /* Pods_AgileJSONDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				48196DB30D6D1CD8A183221AF76BDD93 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5BFA7235675A44F55D2FEB8B071B918F /* Products */,
+				929A6BBC075E96654DC336F84CC8978F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85146785B911BEF43AD06CAE00DE43AF /* Pods-AgileJSON */ = {
+			isa = PBXGroup;
+			children = (
+				2C5456CAB2E2D762D79CA038E6C5C63C /* Info.plist */,
+				01E81783075296F4AC00A867D1C574DE /* Pods-AgileJSON.modulemap */,
+				A0CB31A716FAE4F0EAD2CAEE14530B40 /* Pods-AgileJSON-acknowledgements.markdown */,
+				7EF827895A9DB8AD36DF42D80B389530 /* Pods-AgileJSON-acknowledgements.plist */,
+				CADEC359A1A83A3776ED8BFBB14A9C35 /* Pods-AgileJSON-dummy.m */,
+				B988BBC325F37FA81901FAF5D088AFDC /* Pods-AgileJSON-resources.sh */,
+				23ACFADB2155867053B9F287CB794EF4 /* Pods-AgileJSON-umbrella.h */,
+				C5AB430F4A2ECBB820EAFE39C588D2E0 /* Pods-AgileJSON.debug.xcconfig */,
+				F9EDE106205DACD2858E865616AA1AE2 /* Pods-AgileJSON.release.xcconfig */,
+			);
+			name = "Pods-AgileJSON";
+			path = "Target Support Files/Pods-AgileJSON";
+			sourceTree = "<group>";
+		};
+		8B0604CC29D5545E9F673AA02F3639CC /* AgileJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0C8A9FBEB2BAD907DA4D0B41CD979C3E /* AgileJSON */,
+				16142F68931004AC12C6FC8E4BC25443 /* Pod */,
+				3F16639824A953E206CD31B162BD296F /* Source */,
+				3410BEE8EE2E61231EE67A1E60F1BCA5 /* Support Files */,
+			);
+			name = AgileJSON;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		929A6BBC075E96654DC336F84CC8978F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85146785B911BEF43AD06CAE00DE43AF /* Pods-AgileJSON */,
+				10F1905654F71030D059724F5E340917 /* Pods-AgileJSONDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11B005C03CA6DB2A2864053B77885261 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055F18B6E1E7E1CF6268C6946FEDA15A /* Pods-AgileJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623D38C9C9940EC6BA5E83684865E30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BF58C0AE464F0AA60398A381B273EA /* Pods-AgileJSONDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2EE7995BDEB6F5FE3EC74CE1661DAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A4E4E38557EE9469806EA8E43FEF1 /* AgileJSON-umbrella.h in Headers */,
+				FEF6284B2C72BA5EF1A28943BBC841BD /* AgileJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0014BACE6E7177477AAC6734CA51DEC9 /* Pods-AgileJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB633774C483FB35358697D0DF6FDA28 /* Build configuration list for PBXNativeTarget "Pods-AgileJSON" */;
+			buildPhases = (
+				3A348B9747E002CC2EB536438E75F1E2 /* Sources */,
+				B07F6533B97126F9194C4DFB4C9C3439 /* Frameworks */,
+				11B005C03CA6DB2A2864053B77885261 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AgileJSON";
+			productName = "Pods-AgileJSON";
+			productReference = D13EA748AB1CBFBBA7A33D9CBAEB92BE /* Pods_AgileJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8130D064D2190FA1DB201CA7984B5DDA /* AgileJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE142524D1A087DF082C6E43A9EDEC6 /* Build configuration list for PBXNativeTarget "AgileJSON" */;
+			buildPhases = (
+				B37CB8A2DEEE718A65E57D52D8AB15F4 /* Sources */,
+				C59D0CC10808BDD776D010847A1272C0 /* Frameworks */,
+				9D2EE7995BDEB6F5FE3EC74CE1661DAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileJSON;
+			productName = AgileJSON;
+			productReference = 286F5D6CC2F0EA8139FD10481832FB9F /* AgileJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDDA81263601A7119976466D602A9F49 /* Pods-AgileJSONDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D243F70D104F386554FE0E5BFE36461E /* Build configuration list for PBXNativeTarget "Pods-AgileJSONDemo" */;
+			buildPhases = (
+				D16E5A843125F08F35ED8EDC34448BC5 /* Sources */,
+				D6BEB393AC6D12A7130B57CEC3E03DA6 /* Frameworks */,
+				8623D38C9C9940EC6BA5E83684865E30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3F73E97CB0AB51AB6820BE0464D2DC /* PBXTargetDependency */,
+			);
+			name = "Pods-AgileJSONDemo";
+			productName = "Pods-AgileJSONDemo";
+			productReference = D05C1091A794430CAF78E82DB2152D39 /* Pods_AgileJSONDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5BFA7235675A44F55D2FEB8B071B918F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8130D064D2190FA1DB201CA7984B5DDA /* AgileJSON */,
+				0014BACE6E7177477AAC6734CA51DEC9 /* Pods-AgileJSON */,
+				DDDA81263601A7119976466D602A9F49 /* Pods-AgileJSONDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A348B9747E002CC2EB536438E75F1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FAEB49A3823704B8EAFE88222E9F5B /* Pods-AgileJSON-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37CB8A2DEEE718A65E57D52D8AB15F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4960672FF91686D7F6FD138BA6B085 /* AgileJSON-dummy.m in Sources */,
+				A8447C5E1C3E17E5F57FB676A2450869 /* AgileJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16E5A843125F08F35ED8EDC34448BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9AF087FF7F0A95C7E24DF838ED7630 /* Pods-AgileJSONDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3F73E97CB0AB51AB6820BE0464D2DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgileJSON;
+			target = 8130D064D2190FA1DB201CA7984B5DDA /* AgileJSON */;
+			targetProxy = 572CDDF602993615B01B88CDD0C72BB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0149A2ABF695A15E170C0A4A6A778FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F67AECB9B86ADD76B101921F04E71BA /* AgileJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AgileJSON/AgileJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgileJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AgileJSON/AgileJSON.modulemap";
+				PRODUCT_MODULE_NAME = AgileJSON;
+				PRODUCT_NAME = AgileJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		344A1A55F4DC7F4DBC2CD96DEB1081FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D06C2A5F2F6AD9BC8821C6EE43209E2 /* Pods-AgileJSONDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileJSONDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileJSONDemo/Pods-AgileJSONDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A89EED959C00A00F763EA7BCC4E88F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F67AECB9B86ADD76B101921F04E71BA /* AgileJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AgileJSON/AgileJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgileJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AgileJSON/AgileJSON.modulemap";
+				PRODUCT_MODULE_NAME = AgileJSON;
+				PRODUCT_NAME = AgileJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8352DCF1A5E7721DFF3A5DC7F264372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AB430F4A2ECBB820EAFE39C588D2E0 /* Pods-AgileJSON.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileJSON/Pods-AgileJSON.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3689E5711006147AC18EB6E0EEF954E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862449AAED6B59153C8E0A2901031C5A /* Pods-AgileJSONDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileJSONDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileJSONDemo/Pods-AgileJSONDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCDD869360F80661CE8B96E67795278D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EDE106205DACD2858E865616AA1AE2 /* Pods-AgileJSON.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileJSON/Pods-AgileJSON.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB633774C483FB35358697D0DF6FDA28 /* Build configuration list for PBXNativeTarget "Pods-AgileJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8352DCF1A5E7721DFF3A5DC7F264372 /* Debug */,
+				FCDD869360F80661CE8B96E67795278D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D243F70D104F386554FE0E5BFE36461E /* Build configuration list for PBXNativeTarget "Pods-AgileJSONDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344A1A55F4DC7F4DBC2CD96DEB1081FF /* Debug */,
+				F3689E5711006147AC18EB6E0EEF954E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE142524D1A087DF082C6E43A9EDEC6 /* Build configuration list for PBXNativeTarget "AgileJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0149A2ABF695A15E170C0A4A6A778FD3 /* Debug */,
+				7A89EED959C00A00F763EA7BCC4E88F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module AgileJSON {
+  umbrella header "AgileJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
