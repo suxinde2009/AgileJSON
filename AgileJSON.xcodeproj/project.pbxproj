@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F73CD7E238D9BB400E52378 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73CD7D238D9BB400E52378 /* JSON.swift */; };
+		1F73CD86238D9BF500E52378 /* AgileJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73CD85238D9BF500E52378 /* AgileJSONTests.swift */; };
+		1F73CD88238D9BF500E52378 /* AgileJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC1A15B21731A880034651A /* AgileJSON.framework */; };
 		1FC1A16021731A890034651A /* AgileJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC1A15E21731A880034651A /* AgileJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FC1A16D21731AD90034651A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1A16C21731AD90034651A /* AppDelegate.swift */; };
 		1FC1A16F21731AD90034651A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1A16E21731AD90034651A /* ViewController.swift */; };
@@ -20,8 +23,22 @@
 		9E84A7D7D26B06263768541A /* Pods_AgileJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A460C432E48B43D9704F505 /* Pods_AgileJSON.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1F73CD89238D9BF500E52378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC1A15221731A880034651A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC1A15A21731A880034651A;
+			remoteInfo = AgileJSON;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0A460C432E48B43D9704F505 /* Pods_AgileJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F73CD7D238D9BB400E52378 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		1F73CD83238D9BF500E52378 /* AgileJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgileJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F73CD85238D9BF500E52378 /* AgileJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileJSONTests.swift; sourceTree = "<group>"; };
+		1F73CD87238D9BF500E52378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC1A15B21731A880034651A /* AgileJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AgileJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC1A15E21731A880034651A /* AgileJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgileJSON.h; sourceTree = "<group>"; };
 		1FC1A15F21731A890034651A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +60,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F73CD80238D9BF500E52378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F73CD88238D9BF500E52378 /* AgileJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC1A15721731A880034651A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F73CD84238D9BF500E52378 /* AgileJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F73CD85238D9BF500E52378 /* AgileJSONTests.swift */,
+				1F73CD87238D9BF500E52378 /* Info.plist */,
+			);
+			path = AgileJSONTests;
+			sourceTree = "<group>";
+		};
 		1FC1A15121731A880034651A = {
 			isa = PBXGroup;
 			children = (
 				1FC1A15D21731A880034651A /* AgileJSON */,
 				1FC1A16B21731AD90034651A /* AgileJSONDemo */,
+				1F73CD84238D9BF500E52378 /* AgileJSONTests */,
 				1FC1A15C21731A880034651A /* Products */,
 				AFDDB32EE9B7BB66EDEE031C /* Pods */,
 				DBE6CE94EB4E968AE064B138 /* Frameworks */,
@@ -78,6 +113,7 @@
 			children = (
 				1FC1A15B21731A880034651A /* AgileJSON.framework */,
 				1FC1A16A21731AD90034651A /* AgileJSONDemo.app */,
+				1F73CD83238D9BF500E52378 /* AgileJSONTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				1FC1A17F21731B530034651A /* AgileJSON.swift */,
+				1F73CD7D238D9BB400E52378 /* JSON.swift */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -149,6 +186,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1F73CD82238D9BF500E52378 /* AgileJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F73CD8B238D9BF500E52378 /* Build configuration list for PBXNativeTarget "AgileJSONTests" */;
+			buildPhases = (
+				1F73CD7F238D9BF500E52378 /* Sources */,
+				1F73CD80238D9BF500E52378 /* Frameworks */,
+				1F73CD81238D9BF500E52378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F73CD8A238D9BF500E52378 /* PBXTargetDependency */,
+			);
+			name = AgileJSONTests;
+			productName = AgileJSONTests;
+			productReference = 1F73CD83238D9BF500E52378 /* AgileJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1FC1A15A21731A880034651A /* AgileJSON */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC1A16321731A890034651A /* Build configuration list for PBXNativeTarget "AgileJSON" */;
@@ -193,10 +248,13 @@
 		1FC1A15221731A880034651A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "su xinde";
 				TargetAttributes = {
+					1F73CD82238D9BF500E52378 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					1FC1A15A21731A880034651A = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
@@ -221,11 +279,19 @@
 			targets = (
 				1FC1A15A21731A880034651A /* AgileJSON */,
 				1FC1A16921731AD90034651A /* AgileJSONDemo */,
+				1F73CD82238D9BF500E52378 /* AgileJSONTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F73CD81238D9BF500E52378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC1A15921731A880034651A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,11 +369,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F73CD7F238D9BF500E52378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F73CD86238D9BF500E52378 /* AgileJSONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC1A15621731A880034651A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1FC1A18021731B540034651A /* AgileJSON.swift in Sources */,
+				1F73CD7E238D9BB400E52378 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +398,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F73CD8A238D9BF500E52378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC1A15A21731A880034651A /* AgileJSON */;
+			targetProxy = 1F73CD89238D9BF500E52378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1FC1A17021731AD90034651A /* Main.storyboard */ = {
@@ -344,6 +427,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1F73CD8C238D9BF500E52378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ7ATV9HL2;
+				INFOPLIST_FILE = AgileJSONTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.AgileJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F73CD8D238D9BF500E52378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ7ATV9HL2;
+				INFOPLIST_FILE = AgileJSONTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.AgileJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1FC1A16121731A890034651A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,6 +680,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F73CD8B238D9BF500E52378 /* Build configuration list for PBXNativeTarget "AgileJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F73CD8C238D9BF500E52378 /* Debug */,
+				1F73CD8D238D9BF500E52378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1FC1A15521731A880034651A /* Build configuration list for PBXProject "AgileJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
