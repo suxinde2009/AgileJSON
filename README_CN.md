@@ -1,8 +1,8 @@
-# AgileJSON | [中文](./README_CN.md)
-A Codable wrapper, to replace the HandyJSON part of my project.
+# 简介 | [Englinsh](./README.md)
+`AgileJSON`是`Codable`封装，用于替代 HandyJSON。
 
-# Usage
-For example:
+# 用法
+举个🌰:
 
 ```
 import UIKit
@@ -74,6 +74,10 @@ class AgileJSONTestCase: NSObject {
     }
 }
 
+
+
 ```
 
-Obviously, the usage of `AgileJSON ` is quite similar to [`HandyJSON`](https://github.com/alibaba/HandyJSON), and it's more safe than [`HandyJSON`](https://github.com/alibaba/HandyJSON), because it doesn't direct operate on memory layout as [`HandyJSON`](https://github.com/alibaba/HandyJSON) does.
+显然意见，`AgileJSON`的用法同同[`HandyJSON`](https://github.com/alibaba/HandyJSON)基本相似，相较于[`HandyJSON`](https://github.com/alibaba/HandyJSON)直接根据内存布局来解析json，`AgileJSON`更为安全
+
+
