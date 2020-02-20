@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AgileJSON"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "AgileJSON, a replacement of HandyJSON, WIP..."
 
   s.homepage     = "https://github.com/suxinde2009/AgileJSON"
