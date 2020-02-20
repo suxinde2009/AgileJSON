@@ -15,25 +15,22 @@ public protocol AgileJSONCodable: Codable {}
 
 public extension AgileJSONCodable {
     
-    /// <#Description#>
-    ///
-    /// - Returns: <#return value description#>
-    public func toJSONString() -> String? {
+    func toJSONString() -> String? {
         guard let data = try? JSONEncoder().encode(self) else {
             return nil
         }
         return String(data: data, encoding: .utf8)
     }
     
-    public func toJSONObject() -> Any? {
+    func toJSONObject() -> Any? {
         guard let data = try? JSONEncoder().encode(self) else {
             return nil
         }
         return try? JSONSerialization.jsonObject(with: data, options: .allowFragments)
     }
     
-    public static func decodeJSON(from string: String?,
-                                  designatedPath: String? = nil) -> Self? {
+    static func decodeJSON(from string: String?,
+                           designatedPath: String? = nil) -> Self? {
         
         guard let data = string?.data(using: .utf8),
             let jsonData = getInnerObject(inside: data, by: designatedPath) else {
@@ -43,8 +40,8 @@ public extension AgileJSONCodable {
         return returnValue
     }
     
-    public static func decodeJSON(from jsonObject: Any?,
-                                  designatedPath: String? = nil) -> Self? {
+    static func decodeJSON(from jsonObject: Any?,
+                           designatedPath: String? = nil) -> Self? {
         
         guard let jsonObject = jsonObject,
             JSONSerialization.isValidJSONObject(jsonObject),
@@ -58,8 +55,8 @@ public extension AgileJSONCodable {
 
 public extension Array where Element: AgileJSONCodable {
     
-    public static func decodeJSON(from jsonString: String?,
-                                  designatedPath: String? = nil) -> [Element?]? {
+    static func decodeJSON(from jsonString: String?,
+                           designatedPath: String? = nil) -> [Element?]? {
         
         guard let data = jsonString?.data(using: .utf8),
             let jsonData = getInnerObject(inside: data, by: designatedPath),
@@ -69,7 +66,7 @@ public extension Array where Element: AgileJSONCodable {
         return Array.decodeJSON(from: jsonObject)
     }
     
-    public static func decodeJSON(from array: [Any]?) -> [Element?]? {
+    static func decodeJSON(from array: [Any]?) -> [Element?]? {
         return array?.map({ (item) -> Element? in
             return Element.decodeJSON(from: item)
         })
@@ -116,3 +113,4 @@ fileprivate func getInnerObject(inside jsonData: Data?,
     }
     return data
 }
+
