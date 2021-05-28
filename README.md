@@ -1,5 +1,7 @@
 # AgileJSON | [中文](./README_CN.md)
-A Codable wrapper, to replace the HandyJSON part of my project.
+
+AgileJSON is a framework written in Swift which to make converting model objects( pure classes/structs ) to and from JSON easy on iOS.
+Obviously, the usage of `AgileJSON ` is quite similar to [`HandyJSON`](https://github.com/alibaba/HandyJSON), and it's more safe than [`HandyJSON`](https://github.com/alibaba/HandyJSON), because it doesn't direct operate on memory layout as [`HandyJSON`](https://github.com/alibaba/HandyJSON) does.
 
 # Usage
 For example:
@@ -76,4 +78,4 @@ class AgileJSONTestCase: NSObject {
 
 ```
 
-Obviously, the usage of `AgileJSON ` is quite similar to [`HandyJSON`](https://github.com/alibaba/HandyJSON), and it's more safe than [`HandyJSON`](https://github.com/alibaba/HandyJSON), because it doesn't direct operate on memory layout as [`HandyJSON`](https://github.com/alibaba/HandyJSON) does.
+
