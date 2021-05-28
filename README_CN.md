@@ -1,5 +1,6 @@
 # 简介 | [Englinsh](./README.md)
-`AgileJSON`是`Codable`封装，用于替代 HandyJSON。
+AgileJSON是一个用于Swift语言中的JSON序列化/反序列化库。
+`AgileJSON`的用法同[`HandyJSON`](https://github.com/alibaba/HandyJSON)基本相似，相较于[`HandyJSON`](https://github.com/alibaba/HandyJSON)直接根据内存布局来解析json，`AgileJSON`更为安全.
 
 # 用法
 举个🌰:
@@ -78,6 +79,6 @@ class AgileJSONTestCase: NSObject {
 
 ```
 
-显然意见，`AgileJSON`的用法同同[`HandyJSON`](https://github.com/alibaba/HandyJSON)基本相似，相较于[`HandyJSON`](https://github.com/alibaba/HandyJSON)直接根据内存布局来解析json，`AgileJSON`更为安全
+
 
 
