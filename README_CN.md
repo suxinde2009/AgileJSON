@@ -5,7 +5,7 @@ AgileJSON是一个用于Swift语言中的JSON序列化/反序列化库。
 # 用法
 举个🌰:
 
-```
+```Swift
 import UIKit
 import AgileJSON
 
