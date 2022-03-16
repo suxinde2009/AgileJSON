@@ -6,7 +6,7 @@ The usage of `AgileJSON ` is quite similar to [`HandyJSON`](https://github.com/a
 # Usage
 For example:
 
-```
+```Swift
 import UIKit
 import AgileJSON
 
